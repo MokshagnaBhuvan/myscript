@@ -17,13 +17,17 @@ console.log(Number.MAX_VALUE)
 
 let a
 a = 0xfff
+if (a == 4095) {
+    console.log("true");
+}
 
 console.log(String.length)
 
 let first_userName = "white7"
 let last_userName = "minato"
-let username = first_userName + " " + last_userName
+let username = first_userName + last_userName
 console.log(username)
+console.log(first_userName, last_userName);
 
 x = age + first_userName;
 console.log(typeof x, x)
@@ -40,6 +44,3 @@ let bool1 = true
 let bool2 = true
 const result = bool1 + bool2
 console.log(result, typeof result)
-if (a == 4095) {
-    console.log("true");
-}

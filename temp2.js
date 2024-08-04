@@ -81,14 +81,14 @@
 
 //     }
 // }
-// let laptop1 = new laptop(16, 'i7', '3060 rtx ti', 'Asus tuf f15')
+// let laptop1 = new laptop(16, 'i7', '3060 rtx ti', 'Asus tuf f15') //constructor methods
 // console.log(laptop1);
 // let laptop2 = new laptop(8, 'i7', '3060 rtx', 'HP')
 // console.log(laptop2);
 // let comparison = laptop1.compare(laptop2)
 // console.log(comparison);
 
-// // let laptop1 = {
+// // let laptop1 = { //Object methods
 // //     ram: 16,
 // //     cpu: 'i7',
 // //     GraphicsCard: '3060 rtx ti',
@@ -110,7 +110,7 @@
 
 // // let laptop2 = {
 // //     ram: 8,
-// //     cpu:'i7',
+// //     cpu:'i7',                                     //Object methods
 // //     GraphicsCard: '3060 rtx',
 // //     Company: 'Lenovo Legion',
 // //     compare: function(laptop){
@@ -130,7 +130,7 @@
 // // console.log(comparison);
 
 
-let values = [1, 2, 4, 5, 6, 7];
+let values = [1, 2, 4, 5, 6, 7]; //Array methods
 console.log(values.length);
 values.push(3)
 console.log(values.length);
@@ -183,4 +183,13 @@ for (let n of array) {
         console.log(name);
     };
 
-}
+} 
+
+let statement = "Hello This is Mokshagna Bhuvan".split(' ')  //Array destructing
+console.log(statement);
+let [a,b,c,...d] = statement;
+console.log(d);
+
+array.forEach((n) =>{
+    console.log(n);
+})
