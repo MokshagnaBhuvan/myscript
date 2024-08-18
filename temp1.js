@@ -41,7 +41,7 @@ console.log(`SO me ${name} with the username ${username}`); //template literal
 
 
 let i = 4;
-while (i > 3 && i <= 5) {
+while (i > 3 && i < 5) {
     console.log("yes it is");
     i++;
 }
@@ -49,7 +49,8 @@ while (i > 3 && i <= 5) {
 
 for (let a = 1; a <= 100; a++) {
    let result = (a%2 === 0) ? "even" : "odd";
-   return result;
+    console.log(a,result);
+
 
 }
 
@@ -60,3 +61,4 @@ while (b !== 0) {
     console.log(rem);
     b = parseInt(b / 10);
 }
+
