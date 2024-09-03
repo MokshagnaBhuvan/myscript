@@ -1,12 +1,15 @@
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class currencyConv {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+       
         System.out.println("-------------------Currency Convertor-------------------");
         System.out.println("Welcome to the currency coverter application!");
         System.out.println(
                 "Here we can convert following currencies: \n 1. USD to INR \n 2. INR to USD \n 3. JPY to INR \n 4. INR to JPY \n 5. USD to JPY \n 6. JPY to USD");
+        
         int choice;
         System.out.println("Enter the choice of conversion: ");
         choice = sc.nextInt();
