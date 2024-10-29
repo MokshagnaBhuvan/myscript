@@ -9,7 +9,7 @@ int main()
     char *input = (char *)malloc(10 * sizeof(char));
     if (input == NULL)
     {
-        printf("Memory allocation failed!\n");
+        fprintf(stderr, "Memory allocation failed!\n");
     }
     input = "Mokshagna";
     strcpy(buffer, input);
