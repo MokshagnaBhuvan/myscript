@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "bubblesort",
+            "request": "launch",
+            "mainClass": "bubblesort",
+            "projectName": "myscript-1_bbf086eb"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CurrencyGui",
+            "request": "launch",
+            "mainClass": "CurrencyGui",
+            "projectName": "myscript-1_bbf086eb"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "myscript-1_bbf086eb"
+        },
+        {
+            "type": "java",
+            "name": "currencyConv",
+            "request": "launch",
+            "mainClass": "currencyConv",
+            "projectName": "myscript-1_bbf086eb"
+        },
+        {
+            "type": "java",
+            "name": "hypotenus",
+            "request": "launch",
+            "mainClass": "hypotenus",
+            "projectName": "myscript-1_bbf086eb"
+        },
+        {
+            "type": "java",
+            "name": "random",
+            "request": "launch",
+            "mainClass": "random",
+            "projectName": "myscript-1_bbf086eb"
+        },
+        {
+            "type": "java",
+            "name": "revString",
+            "request": "launch",
+            "mainClass": "revString",
+            "projectName": "myscript-1_bbf086eb"
+        }
+    ]
+}

@@ -1,2 +1,2 @@
 # myscript
-my junk scripts in js
+my junk scripts in js,java,c++ ...
