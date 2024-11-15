@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tictactoe",
+            "request": "launch",
+            "mainClass": "tictactoe",
+            "projectName": "myscript-1_bbf086eb"
+        },
+        {
+            "type": "java",
             "name": "bubblesort",
             "request": "launch",
             "mainClass": "bubblesort",
