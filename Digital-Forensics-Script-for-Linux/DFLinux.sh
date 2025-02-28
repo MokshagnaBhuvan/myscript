@@ -3,7 +3,7 @@
 output_dir="/tmp/ExtractedInfo"
 mkdir -p $output_dir
 logfile="$output_dir/extraction.log"
-password="YOUR_PASSPHRASE"
+password="vapt"
 
 write_output() {
     command=$1
